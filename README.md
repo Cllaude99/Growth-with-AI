@@ -105,11 +105,11 @@ Growth-with-AI/
 ├── CLAUDE.md                          # 소크라테스식 페르소나 & 규칙 & 검증 프로토콜
 ├── README.md                          # 프로젝트 소개
 ├── .claude/commands/
-│   ├── cs-learn.md                    # /project:cs-learn 커맨드
-│   ├── cs-theme.md                    # /project:cs-theme 커맨드
-│   ├── debug.md                       # /project:debug 커맨드
-│   ├── progress.md                    # /project:progress 커맨드
-│   └── review.md                      # /project:review 커맨드
+│   ├── cs-learn.md                    # /cs-learn 커맨드
+│   ├── cs-theme.md                    # /cs-theme 커맨드
+│   ├── debug.md                       # /debug 커맨드
+│   ├── progress.md                    # /progress 커맨드
+│   └── review.md                      # /review 커맨드
 ├── topics/                            # CS 토픽별 질문 뱅크
 │   ├── data-structures-algorithms/    # 10개 토픽
 │   ├── operating-systems/             # 7개 토픽
