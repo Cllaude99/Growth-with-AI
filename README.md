@@ -45,7 +45,7 @@ claude
 ### 디버깅 학습
 
 ```
-> /debug
+> /debug-learn
 > "NullPointerException이 발생했는데..."
 ```
 
@@ -107,7 +107,7 @@ Growth-with-AI/
 ├── .claude/commands/
 │   ├── cs-learn.md                    # /cs-learn 커맨드
 │   ├── cs-theme.md                    # /cs-theme 커맨드
-│   ├── debug.md                       # /debug 커맨드
+│   ├── debug-learn.md                 # /debug-learn 커맨드
 │   ├── progress.md                    # /progress 커맨드
 │   └── review.md                      # /review 커맨드
 ├── topics/                            # CS 토픽별 질문 뱅크
