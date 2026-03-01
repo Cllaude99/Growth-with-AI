@@ -88,11 +88,11 @@
 
 | 커맨드 | 설명 |
 |--------|------|
-| `/project:cs-learn` | CS 개념 학습 모드 시작 |
-| `/project:cs-theme` | 테마 기반 랜덤 드릴 모드 시작 |
-| `/project:debug` | 디버깅 학습 모드 시작 |
-| `/project:progress` | 학습 진행 현황 보기 |
-| `/project:review` | 간격 반복 기반 복습 모드 |
+| `/cs-learn` | CS 개념 학습 모드 시작 |
+| `/cs-theme` | 테마 기반 랜덤 드릴 모드 시작 |
+| `/debug` | 디버깅 학습 모드 시작 |
+| `/progress` | 학습 진행 현황 보기 |
+| `/review` | 간격 반복 기반 복습 모드 |
 
 ## 진행 기록 규칙
 

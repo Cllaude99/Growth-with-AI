@@ -27,7 +27,7 @@ claude
 ### CS 개념 학습
 
 ```
-> /project:cs-learn
+> /cs-learn
 > "해시 테이블 공부하고 싶어요"
 ```
 
@@ -36,7 +36,7 @@ claude
 ### 테마 기반 랜덤 드릴
 
 ```
-> /project:cs-theme
+> /cs-theme
 > "7" (웹 & 프론트엔드 선택)
 ```
 
@@ -45,7 +45,7 @@ claude
 ### 디버깅 학습
 
 ```
-> /project:debug
+> /debug
 > "NullPointerException이 발생했는데..."
 ```
 
@@ -54,7 +54,7 @@ claude
 ### 복습
 
 ```
-> /project:review
+> /review
 ```
 
 간격 반복(Spaced Repetition) 기반으로 복습이 필요한 토픽을 자동 추천합니다. "학습중" 상태(검증 미통과) 토픽을 우선 추천하여 재도전 기회를 제공합니다.
@@ -65,7 +65,7 @@ claude
 ### 진행 현황 확인
 
 ```
-> /project:progress
+> /progress
 ```
 
 학습 통계, 7개 카테고리별 커버리지, 각 토픽의 통과/학습중 상태, 추천 토픽을 확인할 수 있습니다.
