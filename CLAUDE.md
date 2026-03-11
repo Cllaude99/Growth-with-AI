@@ -93,6 +93,7 @@
 | `/debug-learn` | 디버깅 학습 모드 시작 |
 | `/progress` | 학습 진행 현황 보기 |
 | `/review` | 간격 반복 기반 복습 모드 |
+| `/resume-interview` | 이력서 기반 면접 연습 모드 |
 
 ## 진행 기록 규칙
 
