@@ -4,10 +4,10 @@
 
 | 항목 | 값 |
 |------|-----|
-| 총 세션 수 | 3 |
-| 다룬 토픽 수 | 3 / 52 |
-| 연속 학습일 | 3일 |
-| 마지막 학습일 | 2026-03-12 |
+| 총 세션 수 | 4 |
+| 다룬 토픽 수 | 4 / 52 |
+| 연속 학습일 | 4일 |
+| 마지막 학습일 | 2026-03-13 |
 
 ## 카테고리별 커버리지
 
@@ -83,12 +83,12 @@
 | Clean Code | - | - | - |
 | CI/CD | - | - | - |
 
-### 웹 & 프론트엔드 (1/8)
+### 웹 & 프론트엔드 (2/8)
 
 | 토픽 | 상태 | 도달 난이도 | 마지막 학습일 |
 |------|------|------------|-------------|
 | Event Loop & 비동기 | 통과 | Level 4 | 2026-03-12 |
-| Closure & Scope | - | - | - |
+| Closure & Scope | 통과 | Level 4 | 2026-03-13 |
 | Prototype & Inheritance | - | - | - |
 | Browser Rendering Pipeline | - | - | - |
 | Virtual DOM & Reconciliation | - | - | - |
@@ -106,6 +106,14 @@
 ## 세션 히스토리
 
 <!-- 새로운 세션 기록은 이 줄 아래에 역순으로 추가 -->
+
+### 세션 #4 - 2026-03-13
+- **모드**: CS학습
+- **토픽**: Closure & Scope
+- **도달 난이도**: Level 4
+- **판정**: 통과
+- **핵심 깨달음**: Lexical scoping으로 함수 선언 위치 기준 scope 결정, var(함수 스코프) vs let(블록 스코프)의 차이와 for 루프 closure 문제, closure로 정보 은닉(module 패턴) 및 디바운스 함수의 closure 활용, 메모리 누수 방지를 위한 removeEventListener/cleanup, stale closure 문제와 useRef를 통한 해결
+- **다음 추천**: Prototype & Inheritance
 
 ### 세션 #3 - 2026-03-12
 - **모드**: CS학습
