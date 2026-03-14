@@ -4,9 +4,9 @@
 
 | 항목 | 값 |
 |------|-----|
-| 총 세션 수 | 5 |
-| 다룬 토픽 수 | 5 / 52 |
-| 연속 학습일 | 5일 |
+| 총 세션 수 | 6 |
+| 다룬 토픽 수 | 6 / 52 |
+| 연속 학습일 | 6일 |
 | 마지막 학습일 | 2026-03-14 |
 
 ## 카테고리별 커버리지
@@ -83,14 +83,14 @@
 | Clean Code | - | - | - |
 | CI/CD | - | - | - |
 
-### 웹 & 프론트엔드 (3/8)
+### 웹 & 프론트엔드 (4/8)
 
 | 토픽 | 상태 | 도달 난이도 | 마지막 학습일 |
 |------|------|------------|-------------|
 | Event Loop & 비동기 | 통과 | Level 4 | 2026-03-12 |
 | Closure & Scope | 통과 | Level 4 | 2026-03-13 |
 | Prototype & Inheritance | 통과 | Level 4 | 2026-03-14 |
-| Browser Rendering Pipeline | - | - | - |
+| Browser Rendering Pipeline | 통과 | Level 4 | 2026-03-14 |
 | Virtual DOM & Reconciliation | - | - | - |
 | Web Security (XSS, CSRF, CORS) | - | - | - |
 | Frontend Performance & Core Web Vitals | - | - | - |
@@ -106,6 +106,14 @@
 ## 세션 히스토리
 
 <!-- 새로운 세션 기록은 이 줄 아래에 역순으로 추가 -->
+
+### 세션 #6 - 2026-03-14
+- **모드**: CS학습
+- **토픽**: Browser Rendering Pipeline
+- **도달 난이도**: Level 4
+- **판정**: 통과
+- **핵심 깨달음**: Critical Rendering Path(DOM → CSSOM → Render Tree → Layout → Paint → Composite), display:none은 Render Tree 제외 vs visibility:hidden은 포함, Reflow가 Repaint를 동반하므로 더 비싼 작업, transform/opacity는 GPU Compositor 레이어에서 처리, async(순서 미보장 즉시 실행) vs defer(파싱 후 순서 보장), CSS가 CSSOM 의존으로 JS 실행을 블로킹, Critical CSS inline + code splitting + SSR/hydration 최적화 전략
+- **다음 추천**: Virtual DOM & Reconciliation
 
 ### 세션 #5 - 2026-03-14
 - **모드**: CS학습
