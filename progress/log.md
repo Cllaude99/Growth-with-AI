@@ -4,10 +4,10 @@
 
 | 항목 | 값 |
 |------|-----|
-| 총 세션 수 | 4 |
-| 다룬 토픽 수 | 4 / 52 |
-| 연속 학습일 | 4일 |
-| 마지막 학습일 | 2026-03-13 |
+| 총 세션 수 | 5 |
+| 다룬 토픽 수 | 5 / 52 |
+| 연속 학습일 | 5일 |
+| 마지막 학습일 | 2026-03-14 |
 
 ## 카테고리별 커버리지
 
@@ -83,13 +83,13 @@
 | Clean Code | - | - | - |
 | CI/CD | - | - | - |
 
-### 웹 & 프론트엔드 (2/8)
+### 웹 & 프론트엔드 (3/8)
 
 | 토픽 | 상태 | 도달 난이도 | 마지막 학습일 |
 |------|------|------------|-------------|
 | Event Loop & 비동기 | 통과 | Level 4 | 2026-03-12 |
 | Closure & Scope | 통과 | Level 4 | 2026-03-13 |
-| Prototype & Inheritance | - | - | - |
+| Prototype & Inheritance | 통과 | Level 4 | 2026-03-14 |
 | Browser Rendering Pipeline | - | - | - |
 | Virtual DOM & Reconciliation | - | - | - |
 | Web Security (XSS, CSRF, CORS) | - | - | - |
@@ -106,6 +106,14 @@
 ## 세션 히스토리
 
 <!-- 새로운 세션 기록은 이 줄 아래에 역순으로 추가 -->
+
+### 세션 #5 - 2026-03-14
+- **모드**: CS학습
+- **토픽**: Prototype & Inheritance
+- **도달 난이도**: Level 4
+- **판정**: 통과
+- **핵심 깨달음**: Prototype chain을 통한 프로퍼티 검색 흐름(객체 → 상위 prototype → Object.prototype → null), class는 prototype의 syntactic sugar이며 new의 4단계 내부 동작, prototype pollution 공격의 원리와 키 필터링/Object.freeze 방어, hasOwnProperty()로 자체 프로퍼티 확인, 상속의 강한 결합 문제와 composition(hooks) 패턴의 유연성
+- **다음 추천**: Browser Rendering Pipeline
 
 ### 세션 #4 - 2026-03-13
 - **모드**: CS학습
